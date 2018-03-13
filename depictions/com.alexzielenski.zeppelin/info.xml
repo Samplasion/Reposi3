@@ -1,0 +1,32 @@
+<package>
+	<id>com.alexzielenski.zeppelin</id>
+	<name>Zeppelin</name>
+	<version>2.1.0-12</version>
+	<compatibility>
+		<firmware>
+			<miniOS>4.2</miniOS>
+      <otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>iOS Firmware (>=4.2)</package>
+    <package>mobilesubstrate</package>
+    <package>preferenceloader</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Replaces carrier text with an image!</description>
+	</descriptionlist>
+	<!-- <screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots> -->
+	<changelog>
+		<change>No changelog provided.</change>
+	</changelog>
+</package>
