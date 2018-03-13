@@ -1,5 +1,5 @@
 <package>
-	<id>libactivator</id>
+	<id>com.rpetrich.libactivator</id>
 	<name>Activator</name>
 	<version>1.9.12</version>
 	<compatibility>
