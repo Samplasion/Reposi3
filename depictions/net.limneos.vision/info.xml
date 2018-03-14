@@ -1,0 +1,33 @@
+<package>
+	<id>com.alexzielenski.zeppelin</id>
+	<name>Zeppelin</name>
+	<version>2.1.0-12</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>8.0</maxiOS>
+      <otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>iOS Firmware (>=8.0)</package>
+    <package>mobilesubstrate</package>
+		<package>RocketBootstrap</package>
+    <package>preferenceloader</package> <!-- mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, firmware (>= 8.0) -->
+	</dependencies>
+	<descriptionlist>
+		<description>Replaces carrier text with an image!</description>
+	</descriptionlist>
+	<!-- <screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>
+	</screenshots> -->
+	<changelog>
+		<change>No changelog provided.</change>
+	</changelog>
+</package>

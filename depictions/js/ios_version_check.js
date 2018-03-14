@@ -5,10 +5,10 @@ let me know and I'll credit you.
 */
 
 // changed const to var for IE9/10 compatibity.
-var VERSION_CHECK_SUPPORTED = "Your iOS version is supported!" /* &#x1f60a;*/;
-var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s" // &#x1f615;";
-var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s" // &#x1f601;";
-var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s up to %s" // &#x1f61e;";
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
+var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
+var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
+var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s up to %s &#x1f61e;";
 
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";

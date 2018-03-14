@@ -1,0 +1,83 @@
+Package: com.supermamon.newpackage
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: This is a sample new package. Firmware should be greater than 7.0
+Name: New Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+
+Package: com.yourepo.samplasion.iphonexdockxi
+Version: 1.1.0-2
+Section: Themes
+Maintainer: Samplasion <samplasion@gmail.com>
+Depends: firmware (>=11.0), com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/com.yourepo.samplasion.iphonexdockxi_1.1_iphoneos-arm.deb
+Size: 4896
+MD5sum: 3d37f8dd6728d2e7cac4b4663ad4184d
+Description: The iPhone X dock for iPhone 5/5S/SE. Not compatible with bigger devices, use at your own risk.
+Name: iPhoneX DockXI
+Author: Samplasion <samplasion@gmail.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.yourepo.samplasion.iphonexdockxi
+
+Package: com.alexzielenski.zeppelin
+Version: 2.1.0-12
+Section: Tweaks
+Mantainer: Alex Zielenski
+Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
+Size: 954352
+MD5sum: b2306aca6cc4afe7ccc57210c98c0612
+Description: Replaces carrier text with an image!
+Name: Zeppelin
+Author: Alex Zielenski
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.alexzielenski.zeppelin
+
+Package: com.rpetrich.libactivator
+Version: 1.9.12
+Section: System
+Mantainer: Ryan Petrich
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15), com.rpetrich.rocketbootstrap (>= 1.0.5) | firmware (<< 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/libactivator_1.9.12_iphoneos-arm.deb
+Size: 1176614
+MD5sum: 8a7c566035e623cacddf24f687a510ae
+Description: Centralized gestures, button and shortcut management for iOS
+Name: Activator
+Author: Ryan Petrich
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.rpetrich.libactivator
+
+Package: net.limneos.vision
+Version: 1.9.12
+Section: Tweaks
+Mantainer: Elias Limneos
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/cydiastore_net.limneos.vision_v0.1-146.deb
+Size: 1087372
+MD5sum: Elias Limneos
+Description: Amazing Real 3D SpringBoard
+Name: Vision
+Author: Elias Limneos
+Depiction: https://samplasion.github.io/cydia/depictions/?p=net.limneos.vision
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: This is a sample old package. Firmware should be lower than 7.0
+Name: Old Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
