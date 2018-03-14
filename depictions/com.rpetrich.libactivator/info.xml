@@ -5,11 +5,14 @@
 	<compatibility>
 		<firmware>
 			<maxiOS>10.3.3</maxiOS>
-      <otherVersions>unsupported</otherVersions>
+			<otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>Too many...</package>
+		<package>mobilesubstrate >= 0.9.5101</package>
+		<package>preferenceloader >= 2.2.2</package>
+		<package>FlipSwitch >= 1.0.15</package>
+		<package>RocketBootstrap >= 1.0.5 or iOS Firmware < 7.0</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Centralized gestures, button and shortcut management for iOS</description>
@@ -25,6 +28,15 @@
 		</screenshot>		
 	</screenshots> -->
 	<changelog>
-		<change>No changelog provided.</change>
+		<change>Fix missing/broken actions on iOS 8.0–8.4</change>
+		<change>Fix safe mode crash on iOS 10.0–10.0.2</change>
+		<change>Support connect/disconnect events for BTLE on iOS 10</change>
+		<change>Use iOS 10 style banners on iOS 10</change>
+		<change>Fix Activator app failing to load on iPad Pro 12.9"</change>
+		<change>Fix application shortcut actions on iOS 10</change>
+		<change>Fix Ask Siri custom actions on iOS 10</change>
+		<change>Fix bypass passcode option on iOS 10</change>
+		<change>Fix lock screen clock events on iOS 10</change>
+		<change>Fix shortcut items on iOS 10</change>
 	</changelog>
 </package>
