@@ -1,10 +1,10 @@
 <package>
-	<id>com.alexzielenski.zeppelin</id>
-	<name>Zeppelin</name>
-	<version>2.1.0-12</version>
+	<id>net.limneos.vision</id>
+	<name>Vision</name>
+	<version>1.9.12</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>8.0</maxiOS>
+			<miniOS>8.0</miniOS>
       <otherVersions>unsupported</otherVersions>
 		</firmware>
 	</compatibility>
