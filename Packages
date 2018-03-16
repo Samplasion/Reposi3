@@ -40,7 +40,7 @@ Name: Zeppelin
 Author: Alex Zielenski
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.alexzielenski.zeppelin
 
-Package: com.rpetrich.libactivator
+Package: libactivator
 Version: 1.9.12
 Section: System
 Mantainer: Ryan Petrich
@@ -52,21 +52,7 @@ MD5sum: 8a7c566035e623cacddf24f687a510ae
 Description: Centralized gestures, button and shortcut management for iOS
 Name: Activator
 Author: Ryan Petrich
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.rpetrich.libactivator
-
-Package: net.limneos.vision
-Version: 1.9.12
-Section: Tweaks
-Mantainer: Elias Limneos
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, firmware (>= 8.0)
-Architecture: iphoneos-arm
-Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/cydiastore_net.limneos.vision_v0.1-146.deb
-Size: 1087372
-MD5sum: Elias Limneos
-Description: Amazing Real 3D SpringBoard
-Name: Vision
-Author: Elias Limneos
-Depiction: https://samplasion.github.io/cydia/depictions/?p=net.limneos.vision
+Depiction: https://samplasion.github.io/cydia/depictions/?p=libactivator
 
 Package: com.supermamon.oldpackage
 Version: 1.0.0-1

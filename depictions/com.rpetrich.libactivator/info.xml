@@ -1,5 +1,5 @@
 <package>
-	<id>com.rpetrich.libactivator</id>
+	<id>libactivator</id>
 	<name>Activator</name>
 	<version>1.9.12</version>
 	<compatibility>
@@ -21,11 +21,11 @@
 		<screenshot>
 			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 		<screenshot>
 			<description>This is a description for screenshot 2. It's another Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 	</screenshots> -->
 	<changelog>
 		<change>Fix missing/broken actions on iOS 8.0–8.4</change>
