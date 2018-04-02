@@ -1,0 +1,45 @@
+<package>
+	<id>com.ikilledappl3.colormyyccmodules</id>
+	<name>iPhoneX DockXI</name>
+	<version>1.1.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>ws.hbang.common</package>
+		<package>org.thebigboss.libcolorpicker</package>
+	</dependencies>
+	<descriptionlist>
+		<description>
+Works with iOS 11+ Configure options from settings!
+
+Getting tired of the old black and dual looking Control Center modules? Wish you could change the color of them?
+
+Now you can! with ColorMyCCModules you can change the color with ease! Any color your heart desires!
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>colormyyccmodules1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>colormyyccmodules2.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Second release</change>
+		<change>It now works</change>
+		<change>Fixed grammar error (dok => dock)</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
