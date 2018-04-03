@@ -41,30 +41,26 @@ Author: Ryan Petrich
 Depiction: https://samplasion.github.io/cydia/depictions/?p=libactivator
 
 Package: com.samplasion.dpkg-test
-Name: dpkg-test
 Version: 0.0.1-1
+Section: Tweaks/Tests
+Maintainer: Samplasion <samplasion@gmail.com>
 Pre-Depends: dpkg (>= 1.13.25-5)
 Architecture: iphoneos-arm
 Filename: ./debs/dpkg-test.deb
 MD5sum: 4fde990795263cc1837bbf6a3f4c7db0
 Description: A test for dpkg.
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dpkg-test
-Maintainer: Samplasion <samplasion@gmail.com>
+Name: dpkg-test
 Author: Samplasion <samplasion@gmail.com>
-Section: Tweaks/Tests
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dpkg-test
 
-Name: ColorMyCCModules
 Package: com.ikilledappl3.colormyyccmodules
-Priority: optional
-Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
 Version: 1.0-1
-Architecture: iphoneos-arm
-Description: Colorize your Control Center Modules!
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodules
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: iKilledAppl3 <ipodnewbee234@icloud.com>
 Section: Tweaks
-Tag: purpose::extension, compatible::ios11
-Installed-Size: 2124
-dev: ikilledappl3
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: ./debs/colormyyccmodules_1.0-1.deb
+Description: Colorize your Control Center Modules!
+Name: ColorMyCCModules
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodules
