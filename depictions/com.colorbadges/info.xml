@@ -1,0 +1,48 @@
+<package>
+	<id>com.colorbadges</id>
+	<name>ColorBadges</name>
+	<version>1.2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate (>=0.9.5000)</package>
+		<package>preferenceloader</package>
+	</dependencies>
+	<descriptionlist>
+		<description><![CDATA[
+			Colorize your badges! ColorBadges will modify badges based on the app icon colors. To increase contrast, ColorBadges will also add an outline around the badge. <br>
+			<br>
+			ColorBadges will colorize folder badges based on the highest numbered badge inside the folder (or the first badge if none of them are numbered).<br>
+			<br>
+			ColorBadges works great with most themes and is compatible with Badge Customizer - you can use it to change the position and alpha level of the badges if you so please.<br>
+			<br>
+			ColorBadges supports iOS 7+ devices, including your iPhones, iPads, iPod touches, and arm64 devices.<br>
+			<br>
+			Developers, you can use ColorBadges' coloring algorithm in your tweaks. See the API documentation <a href="https://github.com/DavidGoldman/TweakAPIs/blob/master/ColorBadges.h" target="_new">here</a>.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>colorbadges1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>colorbadges2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>colorbadges3.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>iOS 11 support</change>
+	</changelog>
+	<links></links>
+</package>

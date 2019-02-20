@@ -60,7 +60,21 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Filename: ./debs/colormyyccmodules_1.0-1.deb
+MD5sum: 88d9aa535b96b365ff028b4c9232f786
 Description: Colorize your Control Center Modules!
 Name: ColorMyCCModules
 Author: iKilledAppl3 <ipodnewbee234@icloud.com>
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodules
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodulesPackage: com.ikilledappl3.colormyyccmodules
+
+Package: com.colorbadges
+Version: 1.2.0
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 7.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.colorbadges_1.2.0_iphoneos-arm.deb
+MD5sum: 10a08210f18617fd0eada1c9da05cf77
+Description: Colorize your badges
+Name: ColorBadges
+Author: David Goldman <help@golddavid.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.colorbadges
