@@ -64,7 +64,7 @@ MD5sum: 88d9aa535b96b365ff028b4c9232f786
 Description: Colorize your Control Center Modules!
 Name: ColorMyCCModules
 Author: iKilledAppl3 <ipodnewbee234@icloud.com>
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodulesPackage: com.ikilledappl3.colormyyccmodules
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodules
 
 Package: com.colorbadges
 Version: 1.2.0
