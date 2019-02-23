@@ -5,10 +5,10 @@ let me know and I'll credit you.
 */
 
 // changed const to var for IE9/10 compatibity.
-var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
-var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
-var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
-var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s up to %s &#x1f61e;";
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported";
+var VERSION_CHECK_NEEDS_UPGRADE = "This package requires at least iOS %s";
+var VERSION_CHECK_UNCONFIRMED = "This package was not tested on iOS %s";
+var VERSION_CHECK_UNSUPPORTED = "This package is only compatible with iOS %s up to %s";
 
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
@@ -16,9 +16,9 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ 
-				parseInt(bits[0], 10), 
-				parseInt(bits[1] ? bits[1] : 0, 10), 
+		return [
+				parseInt(bits[0], 10),
+				parseInt(bits[1] ? bits[1] : 0, 10),
 				parseInt(bits[2] ? bits[2] : 0, 10)
 			   ];
 	}
@@ -51,9 +51,9 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var osVersion = [ 
-						parseInt(version[2], 10), 
-						parseInt(version[3], 10), 
+	var osVersion = [
+						parseInt(version[2], 10),
+						parseInt(version[3], 10),
 						parseInt(version[4] ? version[5] : 0, 10)
 					],
 

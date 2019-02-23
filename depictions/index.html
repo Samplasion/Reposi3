@@ -6,8 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://depiction.hackyouriphone.org/css/style.css">
+  <!--<link rel="stylesheet" href="style.css">-->
+  <link rel="stylesheet" href="https://cydia.saurik.com/cytyle/style-3163da6b7950852a03d31ea77735f4e1d2ba6699.css">
+  <style>
+  fieldset.warn {
+    background-color: #fcc;
+  }
+  fieldset.ok {
+    background-color: #cfc;
+  }
+  </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
@@ -48,11 +56,14 @@
 						$(source).find("maxiOS").text(),
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
-							$(element).html(message)
-							.addClass( (isBad?'alert-danger':'alert-success'));
+							$("#compatibilityCheckText").html(message)
+							$(element).addClass((isBad?'warn':'ok'));
 						}
 					);
-					if(res==0) {$(element).hide()}
+					if(res==0) {
+            $(element).hide()
+            $("#compatibilityCheckLabel").hide()
+          }
 				}
 			}
         ,"#descriptionList"	:
@@ -158,12 +169,28 @@
 
 <div id="packageInformation">
 
-	<div id="packageHeader" class="container" style="display:none">
-		<div class="jumbotron">
-			<h1 id="packageName"></h1>
-			<p>brought to you by Samplasion's Repository</p>
+  <fieldset id="packageHeader" class="container" style="display:none;">
+		<div>
+			<p>
+        <div>
+          <label>
+            <strong id="packageName" style="font-size:1.3em;"></strong>
+            <br>
+            brought to you by Samplasion's Repository
+          </label>
+        </div>
+      </p>
 		</div>
-	</div>
+	</fieldset>
+
+  <label id="compatibilityCheckLabel">Compatibility</label>
+	<fieldset id="compatibilityCheck">
+		<div>
+			<p class="compatibilityCheckText">
+        This package is only compatible with iOS 6.1 up to 6.1.6
+      </p>
+		</div>
+	</fieldset>
 
 	<div class="container">
 	  <div id="compatibilityCheck" class="alert"></div>
