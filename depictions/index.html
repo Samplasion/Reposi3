@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!--<link rel="stylesheet" href="style.css">-->
   <link rel="stylesheet" href="ios7.min.css">
 
@@ -165,11 +164,11 @@
   </script>
 </head>
 <body>
-<br />
+<main id="content" role="main">
 
 <div id="packageInformation">
-  <article id="packageHeader">
-    <section class="container" style="display:none;">
+  <article id="packageHeader"style="display:none;">
+    <section>
       <ul>
         <li>
       	  <strong id="packageName" style="font-size:1.3em;">TestPackage</strong>
@@ -191,8 +190,8 @@
   	</section>
   <article>
 
-	<div class="container">
-		<h5>DESCRIPTION</h5>
+	<article>
+		<header><h2>DESCRIPTION</h2></header>
 		<ul id="descriptionList" class="list-group">
 			<li id="screenshotsLink" />
 		</ul>
@@ -217,24 +216,13 @@
 	</div>
 
 </div>
-<!--
+
 <div id="packageError" style="display:none">
 	<div class="container">
 	  <div class="alert alert-danger">
 		<strong>Oh no!</strong> The package you are trying to view (or, at least, its depiction) is not hosted on this repository.
 	  </div>
 	</div>
-</div>
--->
-<div id="packageError" style="display:none">
-  <label>Error</label>
-  <fieldset style="background-color:#2a7fff;">
-		<div>
-			<div>
-				<label style="font-size: 18px;"><p><!--align="center"--><span>The package you are trying to view (or, at least, its depiction) is not hosted on this repository.</span></p></label>
-			</div>
-		</div>
-  </fieldset>
 </div>
 
 <script type="text/javascript">
@@ -291,20 +279,6 @@
 		</ul>
 	</div>
 </div>
-
-<!--
-<div class="jsx-998139815">
-  <panel class="jsx-998139815 modern">
-    <a style="padding-top:0px" target="_self" href="#" class="jsx-998139815">
-      <panel-body style="background:linear-gradient(-45deg,#f0ad0d,#fbf72f) !important;font-size:16px;font-weight:700;letter-spacing:0.5px;" classname="jsx-998139815 green-gradient">
-        <div style="padding-top:0px" class="jsx-998139815 reviews-more">
-          <div style="color:white !important" class="jsx-998139815">Test</div>
-        </div>
-      </panel-body>
-    </a>
-  </panel>
-</div>
--->
-
+</main>
 </body>
 </html>
