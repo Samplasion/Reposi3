@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!--<link rel="stylesheet" href="style.css">-->
-  <link rel="stylesheet" href="https://cydia.saurik.com/cytyle/style-3163da6b7950852a03d31ea77735f4e1d2ba6699.css">
+  <link rel="stylesheet" href="ios7.min.css">
+
   <style>
   fieldset.warn {
     background-color: #fcc;
@@ -20,7 +21,7 @@
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
   <script type="text/javascript" src="js/ios_version_check.js"></script>
-  <script type="text/javascript" src="js/touch.js"></script>
+  <script type="text/javascript" src="ios7.min.js"></script>
   <style>
 	@media (max-width: 767px) {
 		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
@@ -61,8 +62,7 @@
 						}
 					);
 					if(res==0) {
-            $(element).hide()
-            $("#compatibilityCheckLabel").hide()
+            $("#compatiCheckContainer").hide()
           }
 				}
 			}
@@ -168,33 +168,28 @@
 <br />
 
 <div id="packageInformation">
+  <article id="packageHeader">
+    <section class="container" style="display:none;">
+      <ul>
+        <li>
+      	  <strong id="packageName" style="font-size:1.3em;">TestPackage</strong>
+          <br>
+          brought to you by Samplasion's Repository
+        </li>
+      </ul>
+  	</section>
+  </article>
 
-  <fieldset id="packageHeader" class="container" style="display:none;">
-		<div>
-			<p>
-        <div>
-          <label>
-            <strong id="packageName" style="font-size:1.3em;"></strong>
-            <br>
-            brought to you by Samplasion's Repository
-          </label>
-        </div>
-      </p>
-		</div>
-	</fieldset>
+  <article id="compatCheckContainer">
+    <header><h2 id="compatibilityCheckLabel">Compatibility</h2></header>
+  	<section class="content" id="compatibilityCheck">
+  		<ul>
+  			<li class="compatibilityCheckText">
 
-  <label id="compatibilityCheckLabel">Compatibility</label>
-	<fieldset id="compatibilityCheck">
-		<div>
-			<p class="compatibilityCheckText">
-        This package is only compatible with iOS 6.1 up to 6.1.6
-      </p>
-		</div>
-	</fieldset>
-
-	<div class="container">
-	  <div id="compatibilityCheck" class="alert"></div>
-	</div>
+        </li>
+  		</ul>
+  	</section>
+  <article>
 
 	<div class="container">
 		<h5>DESCRIPTION</h5>
