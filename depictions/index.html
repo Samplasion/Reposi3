@@ -34,6 +34,25 @@
 		background: green
 	}
   </style>
+  <style>
+    .package-info dl {
+        font-size: .85em;
+        margin: 0
+    }
+
+    .package-info dl dt {
+        float: left;
+        clear: left;
+        width: 100px;
+        text-align: right;
+        color: #6d6d72;
+        margin-right: 8px
+    }
+
+    .package-info dl dd {
+        margin-left: 108px
+    }
+  </style>
   <script type="text/javascript">
 
 	bundleid = $.QueryString['p'];
@@ -253,7 +272,7 @@
 		</ul>
 	</article>
 
-  <article id="metadataContainer">
+  <article class="package-info" id="metadataContainer">
 		<label><h2>Metadata</h2></label>
 		<ul class="list-group">
       <li id="metadata">
