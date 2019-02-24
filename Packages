@@ -153,3 +153,37 @@ Name: EzLauncher
 Author: MidnightChips
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.auxilium.ezlauncher
 Icon: file:///Library/PreferenceBundles/EzLauncher.bundle/Icon.png
+
+Package: com.shiftcmdk.pencilchargingindicator
+Version: 1.2~b1
+Architecture: iphoneos-arm
+Maintainer: shiftcmdk
+Installed-Size: 312
+Depends: mobilesubstrate
+Filename: ./debs/com.shiftcmdk.pencilchargingindicator_1.2~b1_iphoneos-arm.deb
+Size: 48472
+MD5sum: bfe570f56b3666718cec98bf487df850
+SHA1: b178544f1161fa41e4730753c467bb6e5d9af05c
+SHA256: af29ba580f5dc5768e03ed8c1baef853cd6aaef82730fa71815d6727205f2327
+Section: Tweaks
+Description: Make charging less boring with the Apple Pencil charging animation from the iPad Pro 2018.
+Author: shiftcmdk
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.shiftcmdk.pencilchargingindicator
+Name: PencilChargingIndicator
+
+Package: com.shiftcmdk.settingscollapse
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: shiftcmdk
+Installed-Size: 348
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.shiftcmdk.settingscollapse_1.1_iphoneos-arm.deb
+Size: 42044
+MD5sum: 99f13ad781d0242b2849548965d6407e
+SHA1: 2cf964e9263341a1cc0550f9d2a9d5e3387bab3d
+SHA256: 259426d38a8f10f5521dab4d2af07d6b57c235fe6cd22d865d1693c7bcc4abb4
+Section: Tweaks
+Description: Expand or hide individual sections in the Settings app.
+Author: shiftcmdk
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.shiftcmdk.settingscollapse
+Name: SettingsCollapse
