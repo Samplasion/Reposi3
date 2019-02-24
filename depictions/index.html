@@ -192,7 +192,7 @@
         "render": (el, source) => {
           if ($(source).text().length == 0) {
             $(el).remove()
-            $("sizeLabel").remove()
+            $("#sizeLabel").remove()
           }
           $(el).text($(source).text())
         }
@@ -276,10 +276,12 @@
 		<label><h2>Metadata</h2></label>
 		<ul class="list-group">
       <li id="metadata">
-        <dt>License</dt>
-        <dd id="license">Free</dd>
-        <dt id="sizeLabel">Size</dt>
-        <dd id="size">0 KB</dd>
+        <dl>
+          <dt>License</dt>
+          <dd id="license">Free</dd>
+          <dt id="sizeLabel">Size</dt>
+          <dd id="size">0 KB</dd>
+        </dl>
       </li>
 		</ul>
 	</article>
