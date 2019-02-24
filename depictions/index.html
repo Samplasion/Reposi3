@@ -155,7 +155,7 @@
 					}
 
                     $.each(source, function(index,data) {
-                        var i = $("<li class=\"arrow\">")
+                        var li = $("<li class=\"arrow\">")
                         var a = $("<a>");
                         a.attr("href",$(data).find('url').text());
                         if ($(data).find('iconclass')) {
