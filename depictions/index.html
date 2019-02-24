@@ -166,7 +166,27 @@
 
 				}
 
-			}
+			},
+      "#size": {
+        "type": "custom",
+        "source": "package>size",
+        "render": (el, source) => {
+          if ($(source).text().length == 0) {
+            $(el).remove()
+            $("sizeLabel").remove()
+          }
+          $(el).text($(source).text())
+        }
+      },
+      "#license": {
+        "type": "custom",
+        "source": "package>license",
+        "render": (el, source) => {
+          if ($(source).text().length != 0) {
+            $(el).text($(source).text())
+          }
+        }
+      }
 	}
     $( document ).ready(function() {
         $.ajax({
@@ -227,9 +247,21 @@
 		</ul>
 	</article>
 
-	<article id="dependenciesContainer">
+  <article id="dependenciesContainer">
 		<label><h2>DEPENDENCIES</h2></label>
 		<ul id="dependencyList" class="list-group">
+		</ul>
+	</article>
+
+  <article id="metadataContainer">
+		<label><h2>Metadata</h2></label>
+		<ul class="list-group">
+      <li id="metadata">
+        <dt>License</dt>
+        <dd id="license">Free</dd>
+        <dt id="sizeLabel">Size</dt>
+        <dd id="size">0 KB</dd>
+      </li>
 		</ul>
 	</article>
 

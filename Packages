@@ -91,3 +91,18 @@ Description: Minimalistic volume hud on the notch.
 Name: Pikabu Lite
 Author: Jeffrey Chan <pikabu.jeffrey.chan@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.jeffrey.pikabulite
+
+Package: com.repo.xarold.com.colorflow4
+Version: 1.1.3
+Section: Tweaks
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorflow, com.repo.xarold.com.colorflow, com.golddavid.colorflow2, com.repo.xarold.com.colorflow2, com.golddavid.colorflow3, com.repo.xarold.com.colorflow3
+Architecture: iphoneos-arm
+Filename: ./debs/com.repo.xarold.com.colorflow4_1.1.3.deb
+MD5sum: 4f2b9fa51c8679fa589797a56a905e24
+Description: one colorful boi
+Name: ColorFlow 4 (iOS 11)
+Author: David Goldman
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.jeffrey.pikabulite
+Icon: https://samplasion.github.io/cydia/tweakicons/com.repo.xarold.com.colorflow4_1.1.3.png

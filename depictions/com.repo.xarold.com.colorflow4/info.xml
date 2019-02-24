@@ -1,0 +1,45 @@
+<package>
+	<id>com.repo.xarold.com.colorflow4</id>
+	<name>ColorFlow 4</name>
+	<version>1.1.0</version>
+	<size>713 KB</size>
+	<license>Free</license>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>MobileSubstrate (>=0.9.5000)</package>
+		<package>PreferenceLoader</package>
+	</dependencies>
+	<descriptionlist>
+		<description><![CDATA[
+			Color your music! ColorFlow matches the UI to your music's album artwork.<br>
+			<br>
+			ColorFlow 4 works:<br>
+			<br>
+			&nbsp;-&nbsp;On the Lock Screen<br>
+			&nbsp;-&nbsp;In the Music app<br>
+			&nbsp;-&nbsp;In the Spotify app<br>
+			<br>
+			ColorFlow 4 supports all iOS 11 devices, including iPhones, iPads, and iPods.<br>
+			<br>
+			(Tested on Spotify v8.4.67)<br>
+			<br>
+			Tweak Compatibility:<br>
+			<br>
+			Night: Disable Night's Darken Media Player<br>
+			Slyph: Disable ColorFlow's Larger Now Playing View<br>
+			Configure ColorFlow 4 from Settings.
+			]]>
+		</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>

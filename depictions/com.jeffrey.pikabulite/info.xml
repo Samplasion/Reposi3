@@ -1,7 +1,8 @@
 <package>
-	<id>com.jeffrey.pikabulite_1.1.0_iphoneos-arm.deb</id>
+	<id>com.jeffrey.pikabulite</id>
 	<name>Pikabu Lite</name>
 	<version>1.1.0</version>
+	<size>230 KB</size>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
