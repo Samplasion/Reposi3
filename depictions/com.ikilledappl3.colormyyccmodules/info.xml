@@ -8,10 +8,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>preferenceloader</package>
-		<package>ws.hbang.common</package>
-		<package>org.thebigboss.libcolorpicker</package>
+		<package>MobileSubstrate</package>
+		<package>PreferenceLoader</package>
+		<package>Cephei</package>
+		<package>libColorPicker</package>
 	</dependencies>
 	<descriptionlist>
 		<description>

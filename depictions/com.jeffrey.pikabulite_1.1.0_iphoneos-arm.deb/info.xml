@@ -1,0 +1,24 @@
+<package>
+	<id>com.jeffrey.pikabulite_1.1.0_iphoneos-arm.deb</id>
+	<name>Pikabu Lite</name>
+	<version>1.1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>MobileSubstrate</package>
+		<package>PreferenceLoader</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Minimalistic volume hud on the notch.</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>

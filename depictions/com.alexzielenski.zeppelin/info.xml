@@ -9,9 +9,8 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>iOS Firmware (>=4.2)</package>
-    <package>mobilesubstrate</package>
-    <package>preferenceloader</package>
+    <package>MobileSubstrate</package>
+    <package>PreferenceLoader</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Replaces carrier text with an image!</description>
@@ -20,11 +19,11 @@
 		<screenshot>
 			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 		<screenshot>
 			<description>This is a description for screenshot 2. It's another Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 	</screenshots> -->
 	<changelog>
 		<change>No changelog provided.</change>

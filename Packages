@@ -78,3 +78,16 @@ Description: Colorize your badges
 Name: ColorBadges
 Author: David Goldman <help@golddavid.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.colorbadges
+
+Package: com.jeffrey.pikabulite
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Jeffrey Chan
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.jeffrey.pikabulite_1.1.0_iphoneos-arm.deb
+MD5sum: d3506d963d74a1ceb1540464363c06fa
+Description: Minimalistic volume hud on the notch.
+Name: Pikabu Lite
+Author: Jeffrey Chan <pikabu.jeffrey.chan@gmail.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.jeffrey.pikabulite
