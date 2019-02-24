@@ -21,6 +21,13 @@
     margin-top: -7px;
     background-size: 100% 100%;
   }
+  .disable-selection {
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer */
+     -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
@@ -186,7 +193,7 @@
     }); // ready
   </script>
 </head>
-<body>
+<body class="disable-selection">
 <main id="content" role="main">
 
 <div id="packageInformation">
