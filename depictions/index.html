@@ -9,17 +9,9 @@
   <link rel="stylesheet" href="ios7.min.css">
 
   <style>
-  li.arrow::after {
-    content: "";
-    display: block;
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…cgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=);
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    width: 10px;
-    height: 13px;
-    margin-top: -7px;
-    background-size: 100% 100%;
+  li::after {
+    left: -15px;
+    width: calc(100% + 15px);
   }
   .disable-selection {
        -moz-user-select: none; /* Firefox */
