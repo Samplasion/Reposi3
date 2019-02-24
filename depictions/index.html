@@ -155,7 +155,7 @@
 					}
 
                     $.each(source, function(index,data) {
-                        var i = $("<li class=\"arrow\">")
+                        var li = $("<li class=\"arrow\">")
                         var a = $("<a>");
                         a.attr("href",$(data).find('url').text());
                         if ($(data).find('iconclass')) {
@@ -216,7 +216,7 @@
   			<li id="compatibilityCheckText"></li>
   		</ul>
   	</section>
-  <article>
+  </article>
 
 	<article>
 		<header><h2>DESCRIPTION</h2></header>
@@ -226,7 +226,7 @@
 	</article>
 
 	<article>
-		<label><h2>IN THIS VERSION (<span id="versionBadge" class="badge" />)</h2></label>
+		<label><h2>IN THIS VERSION (<span id="versionBadge" class="badge"></span>)</h2></label>
 		<ul id="changesList" class="list-group">
 			<li id="changelogLink" />
 		</ul>
