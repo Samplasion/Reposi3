@@ -106,3 +106,33 @@ Name: ColorFlow 4 (iOS 11)
 Author: David Goldman
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.repo.xarold.com.colorflow4_1.1.3.png
 Icon: https://samplasion.github.io/cydia/tweakicons/com.repo.xarold.com.colorflow4_1.1.3.png
+
+Package: com.tonyk7.0vigilate
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Tonyk7
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs/com.tonyk7.0vigilate_0.0.1_iphoneos-arm.deb
+Size: 2252
+Installed-Size: 72
+MD5sum: 0cb4f7e68e2d215935aa6ecaeaaf9c68
+Description: An awesome MobileSubstrate tweak!
+Name: 0vigilate
+Author: Tonyk7
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.tony7k.0vigilate
+
+Package: com.auxilium.ezcc
+Version: 1.2.4
+Section: Tweaks
+Maintainer: Auxilium Team (macs@auxilium.com)
+Depends: mobilesubstrate
+Conflicts: com.m4cs.ezccbeta
+Architecture: iphoneos-arm
+Filename: debs/com.auxilium.ezccfinal.nsurl.deb
+Size: 128548
+MD5sum: 64eb8681bef8e99ee4e840475aed3996
+Description: EzCC Module Tweak for iOS 11! Allows you to launch apps and activate system commands from the Control Center
+Name: EzCC
+Author: Auxilium Team
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.auziliumdev.ezcc
