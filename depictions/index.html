@@ -53,26 +53,37 @@
 			}
 		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
-		,"#compatibilityCheck" :
-			{"type":"custom"
-				,"source":"package>compatibility>firmware"
-				,"render":function(element,source){
-					var res = ios_version_check(
-						$(source).find("miniOS").text(),
-						$(source).find("maxiOS").text(),
-						$(source).find("otherVersions").text(),
-						function(message,isBad) {
-              // alert(message)
-							$("#compatibilityCheckText").html(message)
-							$(element).addClass((isBad?'warn':'ok'));
-              document.querySelector("#compatibilityCheckText").innerHTML = message
-						}
-					);
-					if(res==0) {
-            $("#compatCheckContainer").hide()
-          }
-				}
-			}
+      ,"#compatibilityCheck" :
+  			{"type":"custom"
+  				,"source":"package>compatibility>firmware"
+  				,"render":function(element,source){
+  					var res = ios_version_check(
+  						$(source).find("miniOS").text(),
+  						$(source).find("maxiOS").text(),
+  						$(source).find("otherVersions").text(),
+  						function(message,isBad) {
+                // alert(message)
+  							$("#compatibilityCheckText").html(message)
+  							$(element).addClass((isBad?'warn':'ok'));
+  						}
+  					);
+  					if(res==0) {
+              $("#compatCheckContainer").hide()
+            }
+  				}
+  			}/*
+        ,"#compatibilityCheckText" :
+    			{"type":"custom"
+    				,"source":"package>compatibility>firmware"
+    				,"render":function(element,source){
+    					var res = $(source).find("iOSCompat").text()
+    					if(res==0) {
+                $("#compatCheckContainer").hide()
+              } else {
+                $(element).text(res)
+              }
+    				}
+    			}*/
         ,"#descriptionList"	:
 			{"type":"list"
 				,"source" :"package>descriptionlist>description"
@@ -195,7 +206,7 @@
     <header><h2 id="compatibilityCheckLabel">Compatibility</h2></header>
   	<section class="content" id="compatibilityCheck">
   		<ul>
-  			<li class="compatibilityCheckText"></li>
+  			<li id="compatibilityCheckText"></li>
   		</ul>
   	</section>
   <article>
