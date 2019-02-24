@@ -62,6 +62,7 @@
 						$(source).find("maxiOS").text(),
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
+              console.log(message)
 							$("#compatibilityCheckText").html(message)
 							$(element).addClass((isBad?'warn':'ok'));
 						}
@@ -285,7 +286,7 @@
 
 <div id="contactInfo">
 	<article>
-		<h5>CONTACT</h5>
+		<label><h2>CONTACT</h2></label>
 		<ul class="list-group" id="repoFooterLinks">
 		</ul>
 	</article>
