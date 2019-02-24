@@ -62,7 +62,7 @@
 						$(source).find("maxiOS").text(),
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
-              console.log(message)
+              alert(message)
 							$("#compatibilityCheckText").html(message)
 							$(element).addClass((isBad?'warn':'ok'));
 						}
