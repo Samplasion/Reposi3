@@ -12,34 +12,6 @@ Name: iPhoneX DockXI
 Author: Samplasion <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.yourepo.samplasion.iphonexdockxi
 
-Package: com.alexzielenski.zeppelin
-Version: 2.1.0-12
-Section: Tweaks
-Mantainer: Alex Zielenski
-Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
-Size: 954352
-MD5sum: b2306aca6cc4afe7ccc57210c98c0612
-Description: Replaces carrier text with an image!
-Name: Zeppelin
-Author: Alex Zielenski
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.alexzielenski.zeppelin
-
-Package: libactivator
-Version: 1.9.12
-Section: System
-Mantainer: Ryan Petrich
-Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15), com.rpetrich.rocketbootstrap (>= 1.0.5) | firmware (<< 7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/libactivator_1.9.12_iphoneos-arm.deb
-Size: 1176614
-MD5sum: 8a7c566035e623cacddf24f687a510ae
-Description: Centralized gestures, button and shortcut management for iOS
-Name: Activator
-Author: Ryan Petrich
-Depiction: https://samplasion.github.io/cydia/depictions/?p=libactivator
-
 Package: com.samplasion.dpkg-test
 Version: 0.0.1-1
 Section: Tweaks/Tests
@@ -52,60 +24,6 @@ Description: A test for dpkg.
 Name: dpkg-test
 Author: Samplasion <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dpkg-test
-
-Package: com.ikilledappl3.colormyyccmodules
-Version: 1.0-1
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm
-Filename: ./debs/colormyyccmodules_1.0-1.deb
-MD5sum: 88d9aa535b96b365ff028b4c9232f786
-Description: Colorize your Control Center Modules!
-Name: ColorMyCCModules
-Author: iKilledAppl3 <ipodnewbee234@icloud.com>
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.ikilledappl3.colormyyccmodules
-
-Package: com.colorbadges
-Version: 1.2.0
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate (>=0.9.5000), firmware (>= 7.0), preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/com.colorbadges_1.2.0_iphoneos-arm.deb
-MD5sum: 10a08210f18617fd0eada1c9da05cf77
-Description: Colorize your badges
-Name: ColorBadges
-Author: David Goldman <help@golddavid.com>
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.colorbadges
-
-Package: com.jeffrey.pikabulite
-Version: 1.1.0
-Section: Tweaks
-Maintainer: Jeffrey Chan
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/com.jeffrey.pikabulite_1.1.0_iphoneos-arm.deb
-MD5sum: d3506d963d74a1ceb1540464363c06fa
-Description: Minimalistic volume hud on the notch.
-Name: Pikabu Lite
-Author: Jeffrey Chan <pikabu.jeffrey.chan@gmail.com>
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.jeffrey.pikabulite
-
-Package: com.repo.xarold.com.colorflow4
-Version: 1.1.3
-Section: Tweaks
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
-Conflicts: org.thebigboss.colorflow, com.repo.xarold.com.colorflow, com.golddavid.colorflow2, com.repo.xarold.com.colorflow2, com.golddavid.colorflow3, com.repo.xarold.com.colorflow3
-Architecture: iphoneos-arm
-Filename: ./debs/com.repo.xarold.com.colorflow4_1.1.3.deb
-MD5sum: 4f2b9fa51c8679fa589797a56a905e24
-Description: one colorful boi
-Name: ColorFlow 4 (iOS 11)
-Author: David Goldman
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.repo.xarold.com.colorflow4_1.1.3.png
-Icon: https://samplasion.github.io/cydia/tweakicons/com.repo.xarold.com.colorflow4_1.1.3.png
 
 Package: com.tonyk7.0vigilate
 Version: 0.0.1
@@ -122,68 +40,18 @@ Name: 0vigilate
 Author: Tonyk7
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.tony7k.0vigilate
 
-Package: com.auxilium.ezcc
-Version: 1.2.4
+Package: com.samplasion.custombetaalert
+Version: 0.0.1
 Section: Tweaks
-Maintainer: Auxilium Team (macs@auxilium.com)
+Maintainer: Samplasion <samplasion@gmail.com>
 Depends: mobilesubstrate
-Conflicts: com.m4cs.ezccbeta
 Architecture: iphoneos-arm
-Filename: ./debs/com.auxilium.ezccfinal.nsurl.deb
-Size: 128548
-MD5sum: 64eb8681bef8e99ee4e840475aed3996
-Description: EzCC Module Tweak for iOS 11! Allows you to launch apps and activate system commands from the Control Center
-Name: EzCC
-Author: Auxilium Team
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.auxilium.ezcc
-
-Package: com.auxilium.ezlauncher
-Version: 0.0.2
-Section: Tweaks
-Maintainer: Auxilium Team (macs@auxilium.com)
-Depends: mobilesubstrate, applist
-Conflicts: com.m4cs.ezccbeta
-Replaces: com.auxilium.ezcc
-Architecture: iphoneos-arm
-Filename: debs/com.auxilium.ezlauncher2.deb
-Size: 1027548
-MD5sum: 6b0e21a31e7d2e0e6fef2ba04d9ce525
-Description: Activate Commands such as respring from the CC, and set your own apps to be launched.
-Name: EzLauncher
-Author: MidnightChips
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.auxilium.ezlauncher
-Icon: file:///Library/PreferenceBundles/EzLauncher.bundle/Icon.png
-
-Package: com.shiftcmdk.pencilchargingindicator
-Version: 1.2~b1
-Architecture: iphoneos-arm
-Maintainer: shiftcmdk
-Installed-Size: 312
-Depends: mobilesubstrate
-Filename: ./debs/com.shiftcmdk.pencilchargingindicator_1.2~b1_iphoneos-arm.deb
-Size: 48472
-MD5sum: bfe570f56b3666718cec98bf487df850
-SHA1: b178544f1161fa41e4730753c467bb6e5d9af05c
-SHA256: af29ba580f5dc5768e03ed8c1baef853cd6aaef82730fa71815d6727205f2327
-Section: Tweaks
-Description: Make charging less boring with the Apple Pencil charging animation from the iPad Pro 2018.
-Author: shiftcmdk
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.shiftcmdk.pencilchargingindicator
-Name: PencilChargingIndicator
-
-Package: com.shiftcmdk.settingscollapse
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: shiftcmdk
-Installed-Size: 348
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.shiftcmdk.settingscollapse_1.1_iphoneos-arm.deb
-Size: 42044
-MD5sum: 99f13ad781d0242b2849548965d6407e
-SHA1: 2cf964e9263341a1cc0550f9d2a9d5e3387bab3d
-SHA256: 259426d38a8f10f5521dab4d2af07d6b57c235fe6cd22d865d1693c7bcc4abb4
-Section: Tweaks
-Description: Expand or hide individual sections in the Settings app.
-Author: shiftcmdk
-Depiction: https://samplasion.github.io/cydia/depictions/?p=com.shiftcmdk.settingscollapse
-Name: SettingsCollapse
+Filename: ./debs/com.samplasion.custombetaalert_0.0.1_iphoneos-arm.deb
+Size: 8548
+Installed-Size: 12
+MD5sum: 0cb4f7e68e2d215935aa6ecaeaaf9c68
+Description: Recreate the annoying beta update message, but now with custom text!
+Name: CustomBetaAlert
+Author: Samplasion <samplasion@gmail.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
+file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
