@@ -41,7 +41,7 @@ Author: Tonyk7
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.tony7k.0vigilate
 
 Package: com.samplasion.custombetaalert
-Version: 0.0.1
+Version: 1.0.0
 Section: Tweaks
 Maintainer: Samplasion <samplasion@gmail.com>
 Depends: mobilesubstrate
@@ -49,7 +49,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/com.samplasion.custombetaalert_0.0.1_iphoneos-arm.deb
 Size: 8548
 Installed-Size: 12
-MD5sum: 71cef1a9681156c51fec3c218c5c0e56
+MD5sum: 7624c337f0cc7db2edfb6f838c9dc148
 Description: Recreate the annoying beta update message, but now with custom text!
 Name: CustomBetaAlert
 Author: Samplasion <samplasion@gmail.com>

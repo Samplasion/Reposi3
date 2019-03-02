@@ -1,9 +1,9 @@
 <package>
 	<id>com.samplasion.custombetaalert</id>
 	<name>CustomBetaAlert</name>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<license>Open Source</license>
-	<size>12 KB</size>
+	<size>18 KB</size>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -13,18 +13,20 @@
 		<package>MobileSubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Recreate the annoying beta update message, but now with custom text!</description>
+		<description> <![CDATA[
+			<i>Supports iOS 12</i><br>
+			Recreate the annoying beta update message, but now with custom text!<br>
+			Supports placeholders: "%iOS" for the current iOS version; "%batt" for the current battery percentage and "%model" for the current device model.<br>
+			<br>
+			<i>Configure from settings</i>
+			]]></description>
 	</descriptionlist>
-	<!-- <screenshots>
+	<screenshots>
 		<screenshot>
 			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
+			<video>preview.mov</video>
 		</screenshot>
-		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>
-	</screenshots> -->
+	</screenshots>
 	<changelog>
 		<change>First release</change>
 	</changelog>
