@@ -23,12 +23,12 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<video>preview.mov</video>
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>First release</change>
+		<change>Added placeholders</change>
+		<change>Added conditions</change>
 	</changelog>
 	<links>
 		<link>

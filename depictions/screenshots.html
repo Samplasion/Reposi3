@@ -36,7 +36,7 @@
 						th.append($("<p>")
 							.text($(data).find('description').text())
 						)
-            if (!!$(source).find("video")) {
+            if (!!$(data).find("video")) {
               let vid = $("video")
               let src = $("source").attr("src", bundleid+'/screenshots/'+$(data).find('video').text())
               vid.append(src)
