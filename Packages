@@ -47,7 +47,7 @@ Maintainer: Samplasion <samplasion@gmail.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.samplasion.custombetaalert_1.0.0_iphoneos-arm.deb
-MD5sum: 7624c337f0cc7db2edfb6f838c9dc148
+MD5sum: 71cef1a9681156c51fec3c218c5c0e56
 Description: Recreate the annoying beta update message, but now with custom text!
 Name: CustomBetaAlert
 Author: Samplasion <samplasion@gmail.com>
