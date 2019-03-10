@@ -24,7 +24,7 @@
   <h3 id="wells" class="page-header">Hosted Packages</h3>
 </div>
 
-<div class="container">
+<div class="container" id="tweakslist">
 	<div class="panel panel-default">
 	  <div class="panel-heading">iPhoneX DockXI</div>
 	  <div class="panel-body">
@@ -73,6 +73,45 @@
 	  </div>
 	</div>
 </div>
+
+<script>
+function readTextFile(file) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function () {
+        if(rawFile.readyState === 4) {
+            if(rawFile.status === 200 || rawFile.status == 0) {
+                var allText = rawFile.responseText;
+                return allText;
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
+var allPackages = readTextFile("http://www.samplasion.tk/cydia/Packages")
+
+var packages = allPackages.split("\n\n")
+
+packages.forEach(package => {
+  var metadata = {}
+  package.split("\n").forEach(pm => {
+    metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+  })
+
+  var div = $("<div>")
+  div.html(`
+    <div class="panel-heading">${metadata.Name} ${metadata.Version}</div>
+	  <div class="panel-body">
+		${metadata.Description}<br /><br />
+		<a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}">More info</a>
+	  </div>
+    `)
+  div.addClass("panel")
+  div.addClass("panel-default")
+  $("#tweakslist").append(div)
+})
+</script>
 
 </body>
 </html>
