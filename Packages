@@ -52,4 +52,17 @@ Description: Recreate the annoying beta update message, but now with custom text
 Name: CustomBetaAlert
 Author: Samplasion <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
-file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
+Icon: file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
+
+Package: com.samplasion.dopesettingseditor
+Name: DopeSettingsEditor
+Version: 1.0.1
+Depends: xyz.xninja.dopesettings
+Architecture: iphoneos-arm
+Description: A tweak that lets you seamlessly edit the settings titles from a GUI
+Filename: ./debs/com.samplasion.dopesettingseditor_1.0.1_iphoneos-arm.deb
+MD5sum: 66f24602e9eb5dde6bf27a373717295a
+Maintainer: Samplasion
+Author: Samplasion
+Section: Utilities
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dopesettingseditor
