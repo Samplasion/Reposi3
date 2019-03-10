@@ -1,0 +1,10 @@
+<changelog>
+	<changes>
+		<version>1.0.0</version>
+		<change>+ First release</change>
+	</changes>
+	<changes>
+		<version>1.0.1</version>
+		<change>~ Fixed a bug where the application would crash upon adding a new value</change>
+	</changes>
+</changelog>

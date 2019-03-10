@@ -1,0 +1,48 @@
+<package>
+	<id>com.samplasion.custombetaalert</id>
+	<name>DopeSettingsEditor</name>
+	<version>1.0.1</version>
+	<license>Open Source</license>
+	<size>100 KB</size>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<otherVersions>untested</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>DopeSettings</package>
+	</dependencies>
+	<descriptionlist>
+		<description> <![CDATA[
+			<i>Supports iOS 11 and 12</i><br>
+			Welcome to DopeSettingsEditor, the tweak that lets you edit DopeSettings' titles in a straightforward way! It has a nice view where you can see all the keys, sorted alphabetically, and the values currently assigned to them. Tapping an entry will open an "Edit entry" popup where you can change the value assigned to the key; tapping OK will save the value. You can also tap the "+" button to open the "New entry" popup where you can set the key and the value directly. The changes will be refreshed real-time upon saving.
+			]]></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>IMG_113.PNG</image>
+		</screenshot>
+		<screenshot>
+			<image>IMG_114.PNG</image>
+		</screenshot>
+		<screenshot>
+			<image>IMG_115.PNG</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>~ Fixed a bug where the application would crash upon adding a new value</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link><!--
+		<link>
+			<name>Source Code</name>
+			<url>https://github.com/Samplasion/</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>-->
+	</links>
+</package>
