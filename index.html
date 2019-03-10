@@ -76,40 +76,44 @@
 
 <script>
 function readTextFile(file) {
+  return new Promise((res, rej) => {
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function () {
         if(rawFile.readyState === 4) {
             if(rawFile.status === 200 || rawFile.status == 0) {
                 var allText = rawFile.responseText;
-                return allText;
+                res(allText);
             }
         }
     }
     rawFile.send(null);
+    setTimeout(() => rej(""), 10000)
+  })
 }
 
-var allPackages = readTextFile("http://www.samplasion.tk/cydia/Packages")
+readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
 
-var packages = allPackages.split("\n\n")
+  var packages = text.split("\n\n")
 
-packages.forEach(package => {
-  var metadata = {}
-  package.split("\n").forEach(pm => {
-    metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+  packages.forEach(package => {
+    var metadata = {}
+    package.split("\n").forEach(pm => {
+      metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+    })
+
+    var div = $("<div>")
+    div.html(`
+      <div class="panel-heading">${metadata.Name} ${metadata.Version}</div>
+  	  <div class="panel-body">
+  		${metadata.Description}<br /><br />
+  		<a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}">More info</a>
+  	  </div>
+      `)
+    div.addClass("panel")
+    div.addClass("panel-default")
+    $("#tweakslist").append(div)
   })
-
-  var div = $("<div>")
-  div.html(`
-    <div class="panel-heading">${metadata.Name} ${metadata.Version}</div>
-	  <div class="panel-body">
-		${metadata.Description}<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}">More info</a>
-	  </div>
-    `)
-  div.addClass("panel")
-  div.addClass("panel-default")
-  $("#tweakslist").append(div)
 })
 </script>
 
