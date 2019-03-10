@@ -20,7 +20,6 @@
   <script type="text/javascript">
 
 	bundleid = $.QueryString['p'];
-
     var contentBlocks = 	{
         "#screenshotsList"	:
 			{"type":"custom"
@@ -36,16 +35,9 @@
 						th.append($("<p>")
 							.text($(data).find('description').text())
 						)
-            if (!!$(data).find("video")) {
-              let vid = $("video")
-              let src = $("source").attr("src", bundleid+'/screenshots/'+$(data).find('video').text())
-              vid.append(src)
-              th.append(vid)
-            } else {
-  						th.append($("<img>")
-  							.attr("src",bundleid+'/screenshots/'+$(data).find('image').text())
-  						)
-            }
+						th.append($("<img>")
+							.attr("src",bundleid+'/screenshots/'+$(data).find('image').text())
+						)
 						$(element).append(th);
 					});
 
@@ -126,7 +118,6 @@
 
 
     }); // ready
-
 </script>
 
 <div id="contactInfo">
