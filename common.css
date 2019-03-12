@@ -2,6 +2,11 @@
   --accent: #FD4401;
 }
 
-#about>li [role="button"], #about>li [role="link"], #promo>li [role="button"], #promo>li [role="link"], section>ul>li [role="button"], section>ul>li [role="link"] {
+li [role="button"], li [role="link"] {
   color: var(--accent);
+}
+
+a, button {
+    color: var(--accent);
+    text-decoration: none;
 }
