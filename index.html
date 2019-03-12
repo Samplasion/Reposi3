@@ -4,28 +4,35 @@
   <title>Samplasion's Repo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="ios7.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="ios7.min.js"></script>
 </head>
 <body>
 
-<div class="container">
-	<h1><img src="CydiaIcon.png"> Samplasion's Repo</h1>
-</div>
+<header role="banner">
+  <h1>Samplasion's Repo</h1>
+</header>
 
-<div class="container">
-	<div class="well">
-		<p><span class="text-primary"><b>Samplasion's Repo</span></b> is my Cydia repository.</p>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://samplasion.github.io/cydia/">Add to Cydia</a>
-	</div>
-</div>
+<main id="content" role="main">
+  <article class="panel panel-default">
+    <section class="content">
+      <ul>
+        <li><h3 class="panel-heading">Samplasion's repo</h3> is my Cydia repository</li>
+        <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://samplasion.github.io/cydia/" role="button">Add to Cydia</a></li>
+      </ul>
+    </section>
+  </article>
 
-<div class="container">
-  <h3 id="wells" class="page-header">Hosted Packages</h3>
-</div>
+  <article class="panel panel-default">
+    <header><h2>Hosted Packages</h2></header>
+  </article>
 
-<div class="container" id="tweakslist">
-</div>
+  <div id="tweakslist">
+  </div>
+</main>
 
 <script>
 function readTextFile(file) {
@@ -57,11 +64,12 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
 
     var div = $("<div>")
     div.html(`
-      <div class="panel-heading">${metadata.Name} ${metadata.Version}</div>
-  	  <div class="panel-body">
-  		${metadata.Description}<br /><br />
-  		<a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}">More info</a>
-  	  </div>
+      <article class="panel panel-default">
+  	  <section class="content"><ul><li><h4 class="panel-heading">${metadata.Name} ${metadata.Version}</h4>
+    ${metadata.Description}</li><li>
+    <a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}" role="button">More info</a></li></ul>
+  	  </section>
+      </article>
       `)
     div.addClass("panel")
     div.addClass("panel-default")
