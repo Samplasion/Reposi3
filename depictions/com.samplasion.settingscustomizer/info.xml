@@ -18,6 +18,7 @@
 			<i>Supports iOS 11 and 12</i><br><br>
 			Welcome to SettingsCustomizer, the tweak that lets you edit DopeSettings' titles in a straightforward way! It has a nice view where you can see all the keys, sorted alphabetically, and the values currently assigned to them. Tapping an entry will open an "Edit entry" popup where you can change the value assigned to the key; tapping OK will save the value. You can also tap the "+" button to open the "New entry" popup where you can set the key and the value directly. The changes will be refreshed real-time upon saving.<br><br>
 			<i>This tweak is based off of both DopeSettings [rewritten by me] and DopeSettingsEditor [which is created by me]</i>
+			<br><br><i>Conflicts with DopeSettings.</i>
 			]]></description>
 	</descriptionlist><!--
 	<screenshots>
