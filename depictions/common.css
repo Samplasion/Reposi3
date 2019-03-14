@@ -1,0 +1,19 @@
+:root {
+  --accent: #FD4401;
+}
+
+#about>li [role="button"], #about>li [role="link"], #promo>li [role="button"], #promo>li [role="link"], section>ul>li [role="button"], section>ul>li [role="link"] {
+  color: var(--accent);
+}
+
+li.green {
+  background-color: #94ff92;
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+li.red {
+  background-color: #fcc;
+  margin-left: 0;
+  padding-left: 15px;
+}

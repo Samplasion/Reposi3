@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--<link rel="stylesheet" href="style.css">-->
   <link rel="stylesheet" href="ios7.min.css">
-  <link rel="stylesheet" href="https://samplasion.github.io/cydia/common.css">
+  <link rel="stylesheet" href="common.css">
 
   <style>
   li:after {
@@ -83,7 +83,7 @@
   						function(message,isBad) {
                 // alert(message)
   							$("#compatibilityCheckText").html(message)
-  							$(element).addClass((isBad?'warn':'ok'));
+  							$("#compatibilityCheckText").addClass((isBad?'red':'green'));
   						}
   					);
   					if(res==0) {
