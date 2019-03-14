@@ -66,3 +66,16 @@ Maintainer: Samplasion
 Author: Samplasion
 Section: Utilities
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dopesettingseditor
+
+Package: com.samplasion.settingscustomizer
+Name: SettingsCustomizer
+Version: 0.0.1
+Conflicts: xyz.xninja.dopesettings
+Architecture: iphoneos-arm
+Description: Change your settings with style!
+Filename: ./debs/com.samplasion.settingscustomizer_0.0.1_iphoneos-arm.deb
+MD5sum: be3e0add4a62fdb0b08028014d917a31
+Maintainer: Samplasion
+Author: Samplasion
+Section: Utilities
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.settingscustomizer

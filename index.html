@@ -91,7 +91,7 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
       <article class="panel panel-default">
   	  <section class="content"><ul><li><h4 class="panel-heading">${metadata.Name} ${metadata.Version}</h4>
     ${metadata.Description}</li><li>
-    <a class="btn btn-xs btn-default" href="depictions/?p=${metadata.Package}" role="button">More info</a></li></ul>
+    <a class="btn btn-xs btn-default" href="${metadata.Depiction}" role="button">More info</a></li></ul>
   	  </section>
       </article>
       `)

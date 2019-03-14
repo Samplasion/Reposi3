@@ -1,8 +1,8 @@
 <package>
-	<id>com.samplasion.custombetaalert</id>
+	<id>com.samplasion.dopesettingseditor</id>
 	<name>DopeSettingsEditor</name>
 	<version>1.0.1</version>
-	<license>Open Source</license>
+	<license>Free</license>
 	<size>100 KB</size>
 	<compatibility>
 		<firmware>
