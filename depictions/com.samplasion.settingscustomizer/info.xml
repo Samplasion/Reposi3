@@ -10,9 +10,6 @@
 			<otherVersions>untested</otherVersions>
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>DopeSettings</package>
-	</dependencies>
 	<descriptionlist>
 		<description> <![CDATA[
 			<i>Supports iOS 11 and 12</i><br><br>
