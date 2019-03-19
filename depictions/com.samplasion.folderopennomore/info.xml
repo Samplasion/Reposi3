@@ -1,9 +1,9 @@
 <package>
 	<id>com.samplasion.dopesettingseditor</id>
 	<name>DopeSettingsEditor</name>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<license>Free</license>
-	<size>100 KB</size>
+	<size>6 KB</size>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -16,7 +16,7 @@
 	<descriptionlist>
 		<description> <![CDATA[
 			<i>Supports iOS 11 and 12</i><br><br>
-			Drag multiple apps and folders without opening them<br>
+			Drag multiple apps and folders without opening them<br><br>
 			<video width="320" height="240" controls>
 			  <source src="https://www.dropbox.com/s/9rec1gqekrme9d4/FolderOpenNoMore%20Preview.MP4?raw=1" type="video/mp4">
 			  Your browser does not support the video tag.
