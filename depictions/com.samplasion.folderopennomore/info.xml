@@ -1,0 +1,41 @@
+<package>
+	<id>com.samplasion.dopesettingseditor</id>
+	<name>DopeSettingsEditor</name>
+	<version>1.0.1</version>
+	<license>Free</license>
+	<size>100 KB</size>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<otherVersions>untested</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>DopeSettings</package>
+	</dependencies>
+	<descriptionlist>
+		<description> <![CDATA[
+			<i>Supports iOS 11 and 12</i><br><br>
+			Drag multiple apps and folders without opening them<br>
+			<video width="320" height="240" controls>
+			  <source src="https://www.dropbox.com/s/9rec1gqekrme9d4/FolderOpenNoMore%20Preview.MP4?raw=1" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			]]></description>
+	</descriptionlist>
+	<changelog>
+		<change>+ First release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link><!--
+		<link>
+			<name>Source Code</name>
+			<url>https://github.com/Samplasion/</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>-->
+	</links>
+</package>
