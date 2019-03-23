@@ -23,16 +23,4 @@
 	<changelog>
 		<change>+ First release</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link><!--
-		<link>
-			<name>Source Code</name>
-			<url>https://github.com/Samplasion/</url>
-			<iconclass>fa fa-github</iconclass>
-		</link>-->
-	</links>
 </package>
