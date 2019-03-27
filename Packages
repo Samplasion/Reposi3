@@ -62,8 +62,8 @@ Architecture: iphoneos-arm
 Description: A tweak that lets you seamlessly edit the settings titles from a GUI
 Filename: ./debs/com.samplasion.dopesettingseditor_1.0.1_iphoneos-arm.deb
 MD5sum: 66f24602e9eb5dde6bf27a373717295a
-Maintainer: Samplasion
-Author: Samplasion
+Maintainer: Francesco Arieti
+Author: Francesco Arieti
 Section: Utilities
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dopesettingseditor
 
@@ -75,8 +75,8 @@ Architecture: iphoneos-arm
 Description: Change your settings with style!
 Filename: ./debs/com.samplasion.settingscustomizer_0.0.1_iphoneos-arm.deb
 MD5sum: be3e0add4a62fdb0b08028014d917a31
-Maintainer: Samplasion
-Author: Samplasion
+Maintainer: Francesco Arieti
+Author: Francesco Arieti
 Section: Tweaks
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.settingscustomizer
 
@@ -91,3 +91,14 @@ Maintainer: Francesco Arieti
 Author: Francesco Arieti
 Section: Tweaks
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.folderopennomore
+
+Package: com.samplasion.quaesitum
+Name: Quaesitum
+Version: 0.0.1-31+debug
+Architecture: iphoneos-arm
+Description: Asks a question after phone unlock
+Filename: ./debs/com.samplasion.folderopennomore_1.0.0_iphoneos-arm.deb
+MD5sum: 78fa1778624734fc79fbec21b247b632
+Maintainer: Francesco Arieti
+Author: Francesco Arieti
+Section: Tweaks
