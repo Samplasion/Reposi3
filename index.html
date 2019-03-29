@@ -111,10 +111,10 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
   }
 
   const populateProcessedPackagesWithPackage = package => {
-    var metadata = {}
-    package.split("\n").forEach(pm => {
-      metadata[pm.split(": ")[0]] = pm.split(": ")[1]
-    })
+    var metadata = a
+    // package.split("\n").forEach(pm => {
+    //   metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+    // })
 
     if (!(metadata.Package in processedPackages)) {
       processedPackages[metadata.Package] = metadata
