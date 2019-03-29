@@ -73,14 +73,14 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
   var packages = text.split("\n\n")
 
   const sort = (a, b) => {
-    var metadataA = {}
-    a.split("\n").forEach(pm => {
-      metadataA[pm.split(": ")[0]] = pm.split(": ")[1]
-    })
-    var metadataB = {}
-    b.split("\n").forEach(pm => {
-      metadataB[pm.split(": ")[0]] = pm.split(": ")[1]
-    })
+    var metadataA = a
+    // a.split("\n").forEach(pm => {
+    //   metadataA[pm.split(": ")[0]] = pm.split(": ")[1]
+    // })
+    var metadataB = b
+    // b.split("\n").forEach(pm => {
+    //   metadataB[pm.split(": ")[0]] = pm.split(": ")[1]
+    // })
 
     return metadataA.Name.localeCompare(metadataB.Name)
   }
