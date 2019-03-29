@@ -110,7 +110,7 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
     return false
   }
 
-  const filter = package => {
+  const populateProcessedPackagesWithPackage = package => {
     var metadata = {}
     package.split("\n").forEach(pm => {
       metadata[pm.split(": ")[0]] = pm.split(": ")[1]
@@ -130,7 +130,9 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
     return false;
   }
 
-  packages.sort(sort).filter(filter).forEach(package => {
+  packages.forEach(populateProcessedPackagesWithPackage);
+
+  Object.values(processedPackages).sort(sort).forEach(package => {
     var metadata = {}
     package.split("\n").forEach(pm => {
       metadata[pm.split(": ")[0]] = pm.split(": ")[1]
