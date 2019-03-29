@@ -54,6 +54,20 @@ Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
 Icon: file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
 
+Package: com.samplasion.custombetaalert
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Francesco Arieti <samplasion@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.samplasion.custombetaalert_1.1.1_iphoneos-arm.deb
+MD5sum: cea69d9c417a040a177a7534533f2dcb
+Description: Recreate the annoying beta update message, but now with custom text!
+Name: CustomBetaAlert
+Author: Francesco Arieti <samplasion@gmail.com>
+Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
+Icon: file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
+
 Package: com.samplasion.dopesettingseditor
 Name: DopeSettingsEditor
 Version: 1.0.1
