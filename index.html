@@ -111,10 +111,11 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
   }
 
   const populateProcessedPackagesWithPackage = package => {
+    console.log(package)
     var metadata = package
-    // package.split("\n").forEach(pm => {
-    //   metadata[pm.split(": ")[0]] = pm.split(": ")[1]
-    // })
+    package.split("\n").forEach(pm => {
+      metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+    })
 
     if (!(metadata.Package in processedPackages)) {
       processedPackages[metadata.Package] = metadata
@@ -133,10 +134,10 @@ readTextFile("http://www.samplasion.tk/cydia/Packages").then(text => {
   packages.forEach(populateProcessedPackagesWithPackage);
 
   Object.values(processedPackages).sort(sort).forEach(package => {
-    var metadata = {}
-    package.split("\n").forEach(pm => {
-      metadata[pm.split(": ")[0]] = pm.split(": ")[1]
-    })
+    var metadata = package
+    // package.split("\n").forEach(pm => {
+    //   metadata[pm.split(": ")[0]] = pm.split(": ")[1]
+    // })
 
     var div = $("<div>")
     div.html(`
