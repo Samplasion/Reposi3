@@ -5,7 +5,6 @@ Maintainer: Francesco Arieti <samplasion@gmail.com>
 Depends: firmware (>=11.0), com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/com.yourepo.samplasion.iphonexdockxi_1.1_iphoneos-arm.deb
-Size: 4896
 MD5sum: 3d37f8dd6728d2e7cac4b4663ad4184d
 Description: The iPhone X dock for iPhone 5/5S/SE. Not compatible with bigger devices, use at your own risk.
 Name: iPhoneX DockXI
@@ -32,7 +31,6 @@ Maintainer: Tonyk7
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.tonyk7.0vigilate_0.0.1_iphoneos-arm.deb
-Size: 2252
 Installed-Size: 72
 MD5sum: 0cb4f7e68e2d215935aa6ecaeaaf9c68
 Description: An awesome MobileSubstrate tweak!
@@ -96,7 +94,7 @@ Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.setti
 
 Package: com.samplasion.folderopennomore
 Name: FolderOpenNoMore
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Drag multiple apps and folders without opening them
 Filename: ./debs/com.samplasion.folderopennomore_1.0.0_iphoneos-arm.deb
