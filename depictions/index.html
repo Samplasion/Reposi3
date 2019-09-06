@@ -337,7 +337,6 @@
                 } //render
             }
     }
-    */
     $( document ).ready(function() {
         $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
             success : function(xml){
@@ -352,6 +351,10 @@
 
 
     }); // ready
+    */
+    $(document).ready(() => {
+      $("#contactInfo").hide();
+    })
 
 </script>
 
