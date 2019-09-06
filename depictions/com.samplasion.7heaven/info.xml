@@ -1,0 +1,46 @@
+<package>
+	<id>com.samplasion.7heaven</id>
+	<name>7-Heaven</name>
+	<version>0.1.0</version>
+	<license>Open Source, Fork</license>
+	<size>7 KB</size>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<otherVersions>untested</otherVersions>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description> <![CDATA[
+			<i>Supports iOS 12</i><br>
+			<p>Say welcome back to iOS 7.</p>
+			<p>7-Heaven brings back the "Free" button in the App Store for when the app is free. And that's not all! It replaces the button with its iOS 7 counterpart regardless of the text, discards the "In app purchases" text in favor of the little + sign and most importantly, <b>it works in every language seamlessly!</b></p>
+			<p><i>Note: this tweak is a fork of Free Market by Zachary Thomas Paul.</i></p>
+			<br>
+			<i>No options to configure</i>
+			]]></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>en.png</image>
+		</screenshot>
+		<screenshot>
+			<image>it.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial beta release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+		<link>
+			<name>Source Code</name>
+			<url>https://github.com/Samplasion/7heaven</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+	</links>
+</package>

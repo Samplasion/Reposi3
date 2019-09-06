@@ -116,3 +116,14 @@ MD5sum: 78fa1778624734fc79fbec21b247b632
 Maintainer: Francesco Arieti
 Author: Francesco Arieti
 Section: Tweaks
+
+Package: com.samplasion.7heaven
+Name: 7-Heaven
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Ports the iOS 7 "Free" App Store button to newer devices!
+Filename: ./debs/com.samplasion.7heaven_0.1.0_iphoneos-arm.deb
+MD5sum: f469cddd78bec7527b73ab419b67d70d
+Maintainer: Francesco Arieti
+Author: Francesco Arieti
+Section: Tweaks
