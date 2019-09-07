@@ -1,9 +1,9 @@
 <package>
 	<id>com.samplasion.7heaven</id>
 	<name>7-Heaven</name>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<license>Open Source, Fork</license>
-	<size>7 KB</size>
+	<size>8 KB</size>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -29,7 +29,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial beta release</change>
+		<change>Move away from layoutSubviews (thanks to Muirey03)</change>
 	</changelog>
 	<links>
 		<link>

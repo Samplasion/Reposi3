@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>0.2.0</version>
+		<change>Move away from layoutSubviews (thanks to Muirey03)</change>
+	</changes>
+	<changes>
 		<version>0.1.0</version>
 		<change>Initial beta release</change>
 	</changes>
