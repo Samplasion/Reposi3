@@ -135,7 +135,7 @@ Version: 0.2.0
 Architecture: iphoneos-arm
 Description: Ports the iOS 7 "Free" App Store button to newer devices!
 Filename: ./debs/com.samplasion.7heaven_0.2.0_iphoneos-arm.deb
-MD5sum: 5c68767060e5ec7a0e82087d176e4adc
+MD5sum: 06f3394f4a2a9bd7c6a3805f54dbd84c
 Maintainer: Francesco Arieti <samplasion@gmail.com>
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.7heaven
