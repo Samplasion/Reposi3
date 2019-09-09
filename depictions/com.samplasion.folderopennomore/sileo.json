@@ -1,4 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 {
   "minVersion": "0.1",
   "class": "DepictionTabView",
@@ -16,7 +15,7 @@
               {
                   "class": "DepictionMarkdownView",
                   "useSpacing": true,
-                  "markdown": "<script>$.QueryString['p']</script>"
+                  "markdown": "_Supports iOS 11 and 12_\n\nDrag multiple apps and folders without opening them\n\n_No options to configure_"
               },
               {
                   "class": "DepictionSpacerView",
@@ -26,7 +25,7 @@
                   "screenshots": [
                       {
                           "accessibilityText": "Screenshot0",
-                          "url": ""
+                          "url": "https://www.dropbox.com/s/9rec1gqekrme9d4/FolderOpenNoMore%20Preview.MP4?raw=1"
                       }
                   ],
                   "class": "DepictionScreenshotsView",
