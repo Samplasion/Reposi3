@@ -1,5 +1,5 @@
 cp ./Packages ./Packages_cp
-rm ./Packages.bz2
+rm -f ./Packages.bz2
 bzip2 Packages
 mv ./Packages_cp ./Packages
 git add .
