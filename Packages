@@ -10,7 +10,7 @@ Description: The iPhone X dock for iPhone 5/5S/SE. Not compatible with bigger de
 Name: iPhoneX DockXI
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.yourepo.samplasion.iphonexdockxi
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.yourepo.samplasion.iphonexdockxi/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.yourepo.samplasion.iphonexdockxi/sileo.html
 
 Package: com.samplasion.dpkg-test
 Version: 0.0.1-1
@@ -23,7 +23,7 @@ Description: A test for dpkg.
 Name: dpkg-test
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dpkg-test
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.dpkg-test/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.dpkg-test/sileo.html
 
 Package: com.tonyk7.0vigilate
 Version: 0.0.1
@@ -39,7 +39,7 @@ Description: An awesome MobileSubstrate tweak!
 Name: 0vigilate
 Author: Tonyk7
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.tony7k.0vigilate
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.tony7k.0vigilate/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.tony7k.0vigilate/sileo.html
 
 Package: com.samplasion.custombetaalert
 Version: 1.0.0
@@ -53,7 +53,7 @@ Description: Recreate the annoying beta update message, but now with custom text
 Name: CustomBetaAlert
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.custombetaalert/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.custombetaalert/sileo.html
 Icon: file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
 
 Package: com.samplasion.custombetaalert
@@ -68,7 +68,7 @@ Description: Recreate the annoying beta update message, but now with custom text
 Name: CustomBetaAlert
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.custombetaalert
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.custombetaalert/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.custombetaalert/sileo.html
 Icon: file:///Library/PreferenceBundles/custombetaalertprefs.bundle/icon.png
 
 Package: com.samplasion.dopesettingseditor
@@ -83,7 +83,7 @@ Maintainer: Francesco Arieti <samplasion@gmail.com>
 Author: Francesco Arieti <samplasion@gmail.com>
 Section: Utilities
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.dopesettingseditor
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.dopesettingseditor/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.dopesettingseditor/sileo.html
 
 Package: com.samplasion.settingscustomizer
 Name: SettingsCustomizer
@@ -97,7 +97,7 @@ Maintainer: Francesco Arieti <samplasion@gmail.com>
 Author: Francesco Arieti <samplasion@gmail.com>
 Section: Tweaks
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.settingscustomizer
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.settingscustomizer/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.settingscustomizer/sileo.html
 
 Package: com.samplasion.folderopennomore
 Name: FolderOpenNoMore
@@ -111,7 +111,7 @@ Author: Francesco Arieti <samplasion@gmail.com>
 Section: Tweaks
 Size: 6372
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.folderopennomore
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.folderopennomore/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.folderopennomore/sileo.html
 
 Package: com.samplasion.quaesitum
 Name: Quaesitum
@@ -134,7 +134,7 @@ MD5sum: f469cddd78bec7527b73ab419b67d70d
 Maintainer: Francesco Arieti <samplasion@gmail.com>
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.7heaven
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.7heaven/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.7heaven/sileo.html
 Section: Tweaks
 
 Package: com.samplasion.7heaven
@@ -147,5 +147,5 @@ MD5sum: 06f3394f4a2a9bd7c6a3805f54dbd84c
 Maintainer: Francesco Arieti <samplasion@gmail.com>
 Author: Francesco Arieti <samplasion@gmail.com>
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.7heaven
-SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.7heaven/sileo.json
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.7heaven/sileo.html
 Section: Tweaks
