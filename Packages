@@ -111,7 +111,7 @@ Author: Francesco Arieti <samplasion@gmail.com>
 Section: Tweaks
 Size: 6372
 Depiction: https://samplasion.github.io/cydia/depictions/?p=com.samplasion.folderopennomore
-WIPSileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.folderopennomore/sileo.html
+SileoDepiction: https://samplasion.github.io/cydia/depictions/com.samplasion.folderopennomore/sileo.html
 
 Package: com.samplasion.quaesitum
 Name: Quaesitum
